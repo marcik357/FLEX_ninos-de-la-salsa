@@ -265,10 +265,18 @@ a:hover, a:active, a:visited, a:focus{
  	background: #fafafa;
 	padding: 20px;
 	border-radius: 10px;
-	box-shadow: 0 5px 20px rgba(0,0,0,.5);
+	box-shadow: 0 3px 7px rgba(0,0,0,.5);
 	margin: 0 10px 30px 10px;
 	width: 330px;
 }
+
+.new_group:hover {
+ 	background: white;
+	box-shadow: 0 5px 30px rgba(0,0,0,.3);
+	transform: scale(1.2, 1.2);
+	z-index: 999;
+}
+
 
 .schedule_container {
 	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
